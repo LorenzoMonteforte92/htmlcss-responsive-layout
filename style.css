@@ -171,6 +171,16 @@ header .row{
     gap: 20px;
 }
 
+/*-------------------
+    PLANNING SECTION
+---------------------*/
+#planning-sctn{
+    background-color: #9792E4;
+}
+
+.planning .col {
+    width: 50%;
+}
 
 /*---------------
     RESPONSIVE
