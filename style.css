@@ -113,7 +113,7 @@ header .row{
 ---------------------*/
 
 #intro-sctn{
-    margin-top: 50px;
+    margin: 50px;
 }
 
 
@@ -147,7 +147,6 @@ header .row{
     padding-top: 30px;
     margin-bottom: -35px;
     align-self: flex-end;
-
 }
 
 .intro .button{
@@ -176,11 +175,57 @@ header .row{
 ---------------------*/
 #planning-sctn{
     background-color: #9792E4;
+    padding-top: 90px;
+}
+
+.planning .row{
+    justify-content: center;
+    align-items: end;
 }
 
 .planning .col {
-    width: 50%;
+    width: 30%;
 }
+
+.planning-left h2{
+    margin-top: 50%;
+}
+
+.planning-left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    text-align: start;
+}
+
+.planning-right{
+    display: flex;
+    align-items: flex-end;
+}
+
+.planning-card{
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    text-align: center;
+    gap: 12px;
+}
+
+
+
+.planning-btn{
+    background-color: #9792E4;
+    height: 40px;
+    width: 40px;
+    color: black;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+}
+
+
 
 /*---------------
     RESPONSIVE
