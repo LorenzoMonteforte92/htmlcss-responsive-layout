@@ -35,7 +35,7 @@ body{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .link{
@@ -61,12 +61,23 @@ img{
     font-family: inherit;
 }
 
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 .col{
     padding: 0 10px;
 }
 
 .grow{
     flex-grow: 1;
+}
+
+.card{
+    height: 100%;
+    border-radius: 18px;
+    display: flex;
+    padding: 25px 20px ;
 }
 
 /*-------------
@@ -94,10 +105,6 @@ header .row{
     display: none;
 }
 
-.card{
-    height: 100%;
-    border-radius: 18px;
-}
 
 /*-------------------
     INTRO SECTION
@@ -108,15 +115,46 @@ header .row{
 }
 
 
-#intro-sctn .col{
+.intro .col{
     width: calc(100% / 3);
     margin-bottom: 20px;
 }
 
-#intro-sctn .card{
+.intro .card{
     background-color: #B5DDFF;
+    
 }
 
+.intro .card-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 30px;
+    text-align: left;
+    font-weight: bold;
+    color: #5A6E7F;
+}
+
+.card-txt h3{
+    color: #0084FD;
+}
+
+.intro .card-img{
+    padding: 0 40px;
+    padding-top: 30px;
+    margin-bottom: -30px;
+    align-self: flex-end;
+
+}
+
+.intro .button{
+    background-color: #0084FD;
+    color: white;
+    padding: 10px 45px;
+    font-weight: bold;
+    font-size: 16px;
+}
 
 
 /*---------------
@@ -131,6 +169,18 @@ header .row{
     
     header .menu-bars{
         display: block;
+    }
+
+    /* intro section */
+
+    #intro-sctn .card{
+        flex-direction: column;
+    }
+
+    #intro-sctn .card-img{
+        max-width: 50%;
+        align-self: flex-start;
+        padding-left: 0px;
     }
 }
 
