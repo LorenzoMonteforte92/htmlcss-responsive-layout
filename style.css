@@ -94,6 +94,11 @@ header .row{
     display: none;
 }
 
+.card{
+    height: 100%;
+    border-radius: 18px;
+}
+
 /*-------------------
     INTRO SECTION
 ---------------------*/
@@ -110,7 +115,6 @@ header .row{
 
 #intro-sctn .card{
     background-color: #B5DDFF;
-    border-radius: 18px;
 }
 
 
@@ -132,6 +136,8 @@ header .row{
 
 /* da 0 a 768px */
 @media screen and (max-width: 768px){
-    
+    #intro-sctn .container .col{
+        width: 100%;
+    }
 }
 
