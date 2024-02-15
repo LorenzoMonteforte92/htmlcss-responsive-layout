@@ -78,9 +78,9 @@ button:hover{
     border-radius: 18px;
     display: flex;
     padding: 25px 20px;
-    line-height: 30px
-    
+    line-height: 30px;
 }
+
 
 /*-------------
     HEADER
@@ -138,14 +138,14 @@ header .row{
     color: #5A6E7F;
 }
 
-.card-txt h3{
+.intro h3,.icon{
     color: #0084FD;
 }
 
 .intro .card-img{
     padding: 0 40px;
     padding-top: 30px;
-    margin-bottom: -30px;
+    margin-bottom: -35px;
     align-self: flex-end;
 
 }
@@ -161,6 +161,14 @@ header .row{
 .intro .icon{
     font-size: 100px;
     color: #0084FD;
+}
+
+.intro .card:not(.direction-row){
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
 }
 
 
