@@ -50,6 +50,16 @@ img{
     color: white;
 }
 
+.button{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
 
 /*-------------
     HEADER
@@ -67,4 +77,5 @@ header .row{
 .header-right{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
