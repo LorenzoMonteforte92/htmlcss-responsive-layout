@@ -79,6 +79,7 @@ button:hover{
     display: flex;
     padding: 25px 20px;
     line-height: 30px
+    
 }
 
 /*-------------
@@ -157,6 +158,11 @@ header .row{
     font-size: 16px;
 }
 
+.intro .icon{
+    font-size: 100px;
+    color: #0084FD;
+}
+
 
 /*---------------
     RESPONSIVE
@@ -189,7 +195,7 @@ header .row{
 @media screen and (max-width: 768px){
     
     /* intro section */
-    
+
     #intro-sctn .container .col{
         width: 100%;
     }
