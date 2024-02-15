@@ -77,7 +77,8 @@ button:hover{
     height: 100%;
     border-radius: 18px;
     display: flex;
-    padding: 25px 20px ;
+    padding: 25px 20px;
+    line-height: 30px
 }
 
 /*-------------
@@ -151,7 +152,7 @@ header .row{
 .intro .button{
     background-color: #0084FD;
     color: white;
-    padding: 10px 45px;
+    padding: 15px 80px;
     font-weight: bold;
     font-size: 16px;
 }
@@ -186,8 +187,22 @@ header .row{
 
 /* da 0 a 768px */
 @media screen and (max-width: 768px){
+    
+    /* intro section */
+    
     #intro-sctn .container .col{
         width: 100%;
+    }
+
+    #intro-sctn .grow .card-txt{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    #intro-sctn .grow .card-img {
+        align-self: center;
+        padding: 0;
     }
 }
 
