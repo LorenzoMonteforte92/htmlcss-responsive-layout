@@ -50,3 +50,21 @@ img{
     color: white;
 }
 
+
+/*-------------
+    HEADER
+--------------*/
+
+header{
+    background-color: #0084FD;
+    padding: 15px 0px;
+}
+
+header .row{
+    justify-content: space-between;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
