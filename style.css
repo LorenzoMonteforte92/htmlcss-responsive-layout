@@ -252,6 +252,21 @@ header .row{
         align-self: flex-start;
         padding-left: 0px;
     }
+
+    /* planning section */
+    #planning-sctn .col{
+        width: 100%;
+    }
+
+    #planning-sctn .planning-left, .planning-right{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #planning-sctn .planning-left h2{
+
+    }
+
 }
 
 /* da 0 a 768px */
