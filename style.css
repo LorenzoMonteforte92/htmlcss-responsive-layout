@@ -1,0 +1,52 @@
+/*----------
+    RESET
+----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------
+    TYPOGRAPHY
+-----------------*/
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*-------------
+    UTILITY
+--------------*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;   
+    margin-right: -10px;
+}
+
+.col{
+    padding: 0 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.link{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.link li > * {
+    text-decoration: none;
+    color: white;
+}
+
