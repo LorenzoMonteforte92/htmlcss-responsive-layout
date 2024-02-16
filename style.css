@@ -265,7 +265,7 @@ header .row{
     width: 200px;
     object-fit: cover;
     border-radius: 50%;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
 }
 
 .partner .col-left{
@@ -297,6 +297,10 @@ header .row{
 
     /* intro section */
 
+    #intro-sctn .col{
+        width: 100%;
+    }
+
     #intro-sctn .card{
         flex-direction: column;
     }
@@ -312,6 +316,15 @@ header .row{
         width: 100%;
     }
 
+    #planning-sctn .planning-left{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #planning-sctn .planning-right{
+        margin: 0 40px ;
+    }
+
     #planning-sctn .planning-left, .planning-right{
         align-items: center;
         justify-content: center;
@@ -323,11 +336,11 @@ header .row{
 
     #planning-sctn .planning-left{
         text-align: left;
-        margin: 0 24px;
     }
 
+
     #planning-sctn .planning-right{
-        margin: 0 40px;
+        /* margin: 0 40px; */
     }
 
     #planning-sctn .planning-left h2{
@@ -336,6 +349,11 @@ header .row{
         align-self: baseline;
     }
 
+    /* partner section */
+
+    #partner-sctn .card img{
+        height: 180px;
+    }
 }
 
 /* da 0 a 768px */
@@ -360,8 +378,30 @@ header .row{
 
     /* planning section */
 
-    #planning-sctn .planning-left-img{
-        align-self: flex-end;
+    #planning-sctn .col{
+        width: 100%;
     }
+
+
+    /* partner section */
+
+    #partner-sctn .card{
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #partner-sctn .col-left, .col-right{
+        width: 100%;
+    }
+
+    #partner-sctn .partner-title{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 }
 
