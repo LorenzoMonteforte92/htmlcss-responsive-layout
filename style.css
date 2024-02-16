@@ -17,12 +17,20 @@ body{
 /*-------------
     UTILITY
 --------------*/
-.container{
+.container-large{
     max-width: 1170px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.container-small{
+    max-width: 880px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -198,21 +206,13 @@ header .row{
 
 
 .planning-left .card{
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color: white;
     gap: 30px;
-    text-align: start;
 }
 
 .planning-left .planning-left-img{
     margin-bottom: 80px;
-}
-
-.planning-right{
-    display: flex;
-    align-items: flex-end;
 }
 
 .planning-card{
@@ -322,7 +322,12 @@ header .row{
     }
 
     #planning-sctn .planning-left{
-        text-align: justify;
+        text-align: left;
+        margin: 0 24px;
+    }
+
+    #planning-sctn .planning-right{
+        margin: 0 40px;
     }
 
     #planning-sctn .planning-left h2{
