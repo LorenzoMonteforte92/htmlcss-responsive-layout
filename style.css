@@ -216,8 +216,6 @@ header .row{
     gap: 12px;
 }
 
-
-
 .planning-btn{
     background-color: #9792E4;
     height: 40px;
@@ -229,6 +227,17 @@ header .row{
     padding: 10px;
 }
 
+/*--------------------
+    PARTNER SECTION
+----------------------*/
+
+.partner .row{
+    flex-direction: column;
+}
+
+.partner .col{
+    width: calc(100% / 3);
+}
 
 
 /*---------------
