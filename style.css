@@ -78,7 +78,7 @@ button:hover{
     border-radius: 18px;
     display: flex;
     padding: 25px 20px;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 
@@ -123,6 +123,8 @@ header .row{
 
 .intro .card{
     background-color: #B5DDFF;
+    font-weight: bold;
+    color: #5A6E7F;
 }
 
 .intro .col-large{
@@ -134,10 +136,9 @@ header .row{
     display: flex;
     flex-direction: column;
     align-items: last baseline;
+    align-self: baseline;
     gap: 30px;
     text-align: left;
-    font-weight: bold;
-    color: #5A6E7F;
     padding-top: 16px;
 }
 
