@@ -78,7 +78,7 @@ button:hover{
     border-radius: 18px;
     display: flex;
     padding: 25px 20px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 
@@ -238,13 +238,7 @@ header .row{
 ----------------------*/
 
 .partner .row{
-    flex-direction: column;
-    align-items: center;
     margin-top: 60px;
-}
-
-.partner .col{
-    width: calc(100% / 4);
 }
 
 .partner-title{
@@ -255,6 +249,34 @@ header .row{
 .partner-title h1{
     font-size: 40px;
     color: #9792E4;
+    margin: 20px;
+}
+
+.partner .card{
+    background-color: #9792E4 ;
+    border-radius: 46px;
+    margin: 30px 0px;
+}
+
+.partner img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* flex-shrink: 0; */
+}
+
+.partner .col-left{
+    width: 20%;
+}
+
+.partner .col-right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: white;
 }
 
 /*---------------
