@@ -197,6 +197,7 @@ header .row{
     color: white;
     gap: 30px;
     text-align: start;
+    
 }
 
 .planning-right{
@@ -263,8 +264,14 @@ header .row{
         justify-content: center;
     }
 
-    #planning-sctn .planning-left h2{
+    #planning-sctn .planning-left{
+        text-align: justify;
+    }
 
+    #planning-sctn .planning-left h2{
+        margin-top: 20px;
+        font-size: 46px;
+        align-self: baseline;
     }
 
 }
