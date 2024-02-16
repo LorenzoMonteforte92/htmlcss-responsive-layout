@@ -181,24 +181,27 @@ header .row{
 .planning .row{
     justify-content: center;
     align-items: end;
+    gap: 30px;
 }
 
 .planning .col {
     width: 30%;
 }
 
-.planning-left h2{
-    margin-top: 50%;
-}
 
-.planning-left{
+.planning-left .card{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     color: white;
     gap: 30px;
     text-align: start;
-    
 }
+
+.planning-left .planning-left-img{
+    margin-bottom: 20%;
+}
+
 
 .planning-right{
     display: flex;
@@ -264,6 +267,10 @@ header .row{
         justify-content: center;
     }
 
+    #planning-sctn .planning-left-img{
+        align-self: center;
+    }
+
     #planning-sctn .planning-left{
         text-align: justify;
     }
@@ -294,6 +301,12 @@ header .row{
     #intro-sctn .grow .card-img {
         align-self: center;
         padding: 0;
+    }
+
+    /* planning section */
+
+    #planning-sctn .planning-left-img{
+        align-self: flex-end;
     }
 }
 
