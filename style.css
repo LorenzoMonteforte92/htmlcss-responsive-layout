@@ -78,7 +78,7 @@ button:hover{
     border-radius: 18px;
     display: flex;
     padding: 25px 20px;
-    line-height: 30px;
+    line-height: 1.5;
 }
 
 
@@ -176,6 +176,7 @@ header .row{
 #planning-sctn{
     background-color: #9792E4;
     padding-top: 90px;
+    padding-bottom: 50px;
 }
 
 .planning .row{
@@ -199,7 +200,7 @@ header .row{
 }
 
 .planning-left .planning-left-img{
-    margin-bottom: 20%;
+    margin-bottom: 80px;
 }
 
 
@@ -236,7 +237,7 @@ header .row{
 }
 
 .partner .col{
-    width: calc(100% / 3);
+    width: calc(100% / 4);
 }
 
 
