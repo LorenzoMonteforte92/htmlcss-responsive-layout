@@ -256,6 +256,7 @@ header .row{
     background-color: #9792E4 ;
     border-radius: 46px;
     margin: 30px 0px;
+    gap: 20px;
 }
 
 .partner img{
