@@ -281,6 +281,14 @@ header .row{
     color: white;
 }
 
+/*---------------------
+    BENEFITS SECTION
+-----------------------*/
+.benefits .col{
+    width: calc(100% / 3);
+}
+
+
 /*---------------
     RESPONSIVE
 -----------------*/
