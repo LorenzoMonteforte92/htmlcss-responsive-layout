@@ -116,7 +116,6 @@ header .row{
     margin: 50px;
 }
 
-
 .intro .col{
     width: calc(100% / 3);
     margin-bottom: 20px;
@@ -124,18 +123,22 @@ header .row{
 
 .intro .card{
     background-color: #B5DDFF;
-    
+}
+
+.intro .col-large{
+    padding-bottom: 0;
+    padding-top: 30px;
 }
 
 .intro .card-txt{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: last baseline;
     gap: 30px;
     text-align: left;
     font-weight: bold;
     color: #5A6E7F;
+    padding-top: 16px;
 }
 
 .intro h3,.icon{
@@ -144,9 +147,12 @@ header .row{
 
 .intro .card-img{
     padding: 0 40px;
-    padding-top: 30px;
-    margin-bottom: -35px;
     align-self: flex-end;
+}
+
+.card-img img{
+    max-width: 250px;
+    display: block;
 }
 
 .intro .button{
@@ -165,7 +171,6 @@ header .row{
 .intro .card:not(.direction-row){
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     gap: 20px;
 }
@@ -203,7 +208,6 @@ header .row{
     margin-bottom: 80px;
 }
 
-
 .planning-right{
     display: flex;
     align-items: flex-end;
@@ -234,11 +238,20 @@ header .row{
 
 .partner .row{
     flex-direction: column;
+    align-items: center;
 }
 
 .partner .col{
     width: calc(100% / 4);
 }
+
+/* .partner-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
 
 
 /*---------------
@@ -262,9 +275,9 @@ header .row{
     }
 
     #intro-sctn .card-img{
-        max-width: 50%;
         align-self: flex-start;
         padding-left: 0px;
+        padding-top: 30px;
     }
 
     /* planning section */
