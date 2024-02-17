@@ -357,6 +357,20 @@ header .row{
     gap: 20px;
 }
 
+.about-us .col-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-top: 55px;
+}
+
+
+.about-us .col-right h2{
+    color: #9792E4;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
 .about-us .card h1, .about-us .fa-solid{
     color: #9792E4;
     font-size: 80px;
@@ -511,5 +525,13 @@ header .row{
         text-align: center;
     }
     
+    /* about us section */
+    #about-us-sctn .col{
+        width: 100%;
+    }
+
+    #about-us-sctn .about-us-img .fa-solid{
+        left: 20%;
+    }
 }
 
