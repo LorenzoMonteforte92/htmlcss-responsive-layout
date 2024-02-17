@@ -25,7 +25,7 @@ body{
 }
 
 .container-small{
-    max-width: 880px;
+    max-width: 1080px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -113,6 +113,14 @@ header .row{
 .menu-bars{
     font-size: 2rem;
     display: none;
+}
+
+.partner img, .about-us img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
 }
 
 
@@ -260,14 +268,6 @@ header .row{
     gap: 20px;
 }
 
-.partner img{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    flex-shrink: 0;
-}
-
 .partner .col-left{
     width: 20%;
 }
@@ -331,6 +331,42 @@ header .row{
     letter-spacing: 3px;
     padding: 8px 40px;
 }
+
+/*--------------------
+    ABOUT US SECTION
+----------------------*/
+
+#about-us-sctn .col-left{
+    width: 70%;
+}
+
+#about-us-sctn .col-right{
+    width: 30%;
+}
+
+.about-us .card{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-us .card h1, .about-us .fa-solid{
+    color: #9792E4;
+    font-size: 80px;
+}
+
+.about-us .about-us-img{
+    position: relative;
+}
+
+.about-us-img .fa-solid{
+    position: absolute;
+    top: 10px;
+    right: 30%;
+}
+
+
+
 
 
 /*---------------
