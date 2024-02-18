@@ -46,14 +46,8 @@ img{
     max-width: 100%;
 }
 
-.link{
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
-.link li > * {
+.link {
     text-decoration: none;
     color: white;
 }
@@ -259,7 +253,7 @@ header .row{
 
 .partner-title{
     text-align: center;
-    gap: 30px;
+    margin-top: 50px;
 }
 
 .partner-title h1{
@@ -349,6 +343,7 @@ header .row{
 
 #about-us-sctn .col-right{
     width: 30%;
+    margin-bottom: 30px;
 }
 
 .about-us .card{
@@ -373,7 +368,7 @@ header .row{
 
 .about-us .card h1, .about-us .fa-solid{
     color: #9792E4;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .about-us .about-us-img{
@@ -383,11 +378,55 @@ header .row{
 .about-us-img .fa-solid{
     position: absolute;
     top: 10px;
-    right: 28%;
+    right: 34%;
 }
 
+/*------------------------
+    GET-STARTED SECTION
+--------------------------*/
+#get-started-sctn{
+    background-color: #9792E4;
+}
 
+.get-started .row{
+    justify-content: center;
+}
 
+.get-started .col{
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.get-started .col h1{
+    color: #FDC15F;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.get-started .col h2{
+    font-size: 40px;
+}
+
+.get-started .col p{
+    margin: 20px 0;
+}
+
+.get-started .button{
+    background-color: white;
+    color: #9792E4;
+    margin-bottom: 20px;
+}
+
+.get-started small{
+    display: block;
+}
+
+.get-started small > a{
+    color: white;
+    font-size: 14px;
+}
 
 
 /*---------------
@@ -466,7 +505,13 @@ header .row{
     #benefits-sctn .row .col{
         width: 50%;
     }
-}
+
+    /* benefits section */
+    #about-us-sctn .col-right .fa-solid{
+        right: 28%;
+    }
+}   
+
 
 /* da 0 a 768px */
 @media screen and (max-width: 768px){
